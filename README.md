@@ -37,6 +37,7 @@ Server (receiver): Run the receiver.py script on the server.
 python receiver.py
 
 The server will bind to the specified port and wait for incoming connections.
+
 Client (sender): Run the sender.py script on the client.
 python sender.py
 The client will connect to the server and send a welcome message, followed by a farewell message.
