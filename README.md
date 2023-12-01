@@ -19,10 +19,10 @@ Up Arrow: Move the drone forward
 Down Arrow: Move the drone backward
 Left Arrow: Turn the drone to the left
 Right Arrow: Turn the drone to the right
-Example
+# Example
 The program includes example usage of movement functions, moving the drone forward, turning right, moving backward, and turning left.
 
-Notes
+# Notes
 Close the Turtle graphics window to exit the program.
 Feel free to modify the code to customize the appearance or behavior of the drone.
 # Output
@@ -36,6 +36,7 @@ https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/c47f
 # Usage
 
 Server (receiver): Run the receiver.py script on the server.
+
 python receiver.py
 
 The server will bind to the specified port and wait for incoming connections.
