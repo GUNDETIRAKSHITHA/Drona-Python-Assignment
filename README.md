@@ -26,3 +26,5 @@ The program includes example usage of movement functions, moving the drone forwa
 Notes
 Close the Turtle graphics window to exit the program.
 Feel free to modify the code to customize the appearance or behavior of the drone.
+# Output
+![Q1_output img](https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/e88c9a3f-78a7-4603-be24-a98dad607229)
