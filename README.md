@@ -8,7 +8,7 @@ This Python program uses the Turtle module to simulate the movement of a drone. 
 2. Install the Turtle module by running the following command:
    ```bash
    pip install PythonTurtle
-# Usage
+## Usage
 Clone the repository or download the Python script (Q1.py).
 Open a terminal or command prompt in the directory where the script is located.
 Run the script using the following command:
@@ -49,4 +49,6 @@ Notes
 Make sure to run the server script before the client to establish a connection.
 The scripts use the loopback address (localhost), and the default port is set to 5000. You can modify the host and port variables in the code if needed.
 
+## Output
 
+![Q2_output img](https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/85b812be-2984-48b8-b39e-0f83f19b7c55)
