@@ -41,12 +41,12 @@ Client (sender): Run the sender.py script on the client.
 python sender.py
 The client will connect to the server and send a welcome message, followed by a farewell message.
 
-Error Handling
+# Error Handling
 The code includes error handling for socket operations to ensure a graceful exit in case of any issues.
 
 If a socket error occurs, an exception message will be printed, and the program will attempt to close the socket and the connection.
 
-Notes
+# Notes
 Make sure to run the server script before the client to establish a connection.
 The scripts use the loopback address (localhost), and the default port is set to 5000. You can modify the host and port variables in the code if needed.
 
