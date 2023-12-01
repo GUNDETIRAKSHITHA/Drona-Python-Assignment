@@ -1,5 +1,5 @@
 # Drona-Python-Assignment
-# Q1-Simulated Drone Movement System
+## Q1-Simulated Drone Movement System
 
 This Python program uses the Turtle module to simulate the movement of a drone. The drone can move in four directions: forward, backward, left, and right.
 
@@ -28,3 +28,25 @@ Feel free to modify the code to customize the appearance or behavior of the dron
 # Output
 ![Q1_output img](https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/e88c9a3f-78a7-4603-be24-a98dad607229)
 https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/c47f026e-4f23-4509-8e56-1ef599463193
+
+## Q2 TCP Socket Communication
+
+#Usage
+Server (receiver): Run the receiver.py script on the server.
+python receiver.py
+
+The server will bind to the specified port and wait for incoming connections.
+Client (sender): Run the sender.py script on the client.
+python sender.py
+The client will connect to the server and send a welcome message, followed by a farewell message.
+
+Error Handling
+The code includes error handling for socket operations to ensure a graceful exit in case of any issues.
+
+If a socket error occurs, an exception message will be printed, and the program will attempt to close the socket and the connection.
+
+Notes
+Make sure to run the server script before the client to establish a connection.
+The scripts use the loopback address (localhost), and the default port is set to 5000. You can modify the host and port variables in the code if needed.
+
+
