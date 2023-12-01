@@ -39,10 +39,13 @@ python receiver.py
 The server will bind to the specified port and wait for incoming connections.
 
 Client (sender): Run the sender.py script on the client.
+
 python sender.py
+
 The client will connect to the server and send a welcome message, followed by a farewell message.
 
 # Error Handling
+
 The code includes error handling for socket operations to ensure a graceful exit in case of any issues.
 
 If a socket error occurs, an exception message will be printed, and the program will attempt to close the socket and the connection.
