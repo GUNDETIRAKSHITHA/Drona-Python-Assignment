@@ -32,6 +32,7 @@ https://github.com/GUNDETIRAKSHITHA/Drona-Python-Assignment/assets/97968070/c47f
 ## Q2 TCP Socket Communication
 
 #Usage
+
 Server (receiver): Run the receiver.py script on the server.
 python receiver.py
 
